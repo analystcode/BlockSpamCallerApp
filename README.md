@@ -170,7 +170,7 @@ Share it directly with others for installation.
 Upload it to the Play Store for public distribution.
 
 If you want to generate a signed APK online for free, you can use free online CI/CD tools or APK generation services. 
-While there aren't many direct "upload code and get signed APK" websites, you can set up free services like GitHub Actions, Bitrise, or Appetize.io for this purpose. 
+you can set up free services like GitHub Actions for this purpose. 
 
 
 

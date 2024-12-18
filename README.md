@@ -1,6 +1,6 @@
-=====================================================================================================================================================
+
 Android app that can block spam calls and allow users to manually block sales calls involves using Android's TelecomManager and CallScreeningService. 
-=====================================================================================================================================================
+==================
 Here's an outline of the app's main components: 
 Key Features
 1. Spam Call Blocking:
@@ -32,9 +32,9 @@ Notes
     3. UI: Design the app with user-friendly layouts and error handling.
     4. Testing: Test on various Android versions and devices.
 
-==========================================================================
+
 To run and test the spam call blocker app, you need to follow these steps:
-===========================================================================
+============
 1. Set Up Your Development Environment
     Prerequisites:
     Android Studio: Download and install Android Studio.
@@ -116,9 +116,9 @@ To run and test the spam call blocker app, you need to follow these steps:
         b. Create a keystore or use an existing one.
         c. Follow the steps to generate the APK for distribution.
 
-=============================================================================================
+
 To generate a Signed APK for your Call Blocking app using Android Studio, follow these steps:
-==============================================================================================
+==============
 1. Open the Project in Android Studio
 Ensure the project compiles and runs successfully in debug mode before proceeding.
 

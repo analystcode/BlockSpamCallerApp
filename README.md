@@ -1,16 +1,13 @@
 Android app that can block spam calls and allow users to manually block sales calls involves using Android's TelecomManager and CallScreeningService. 
 Here's an outline of the app's main components: 
 Key Features
-Spam Call Blocking:
-
-Use a database (e.g., a public spam-call list or user-defined list).
-Match incoming calls against the database and block if necessary.
-Manual Blocking:
-
-Provide an interface for users to manually add numbers to the block list.
-Persistent Storage:
-
-Store user preferences and the blocked numbers using a local database (e.g., Room database).
+1. Spam Call Blocking:
+        Use a database (e.g., a public spam-call list or user-defined list).
+        Match incoming calls against the database and block if necessary.
+2. Manual Blocking:
+        Provide an interface for users to manually add numbers to the block list.
+3. Persistent Storage:
+        Store user preferences and the blocked numbers using a local database (e.g., Room database).
 Implementation
 Below is an example of how you might structure the app:
 
@@ -28,10 +25,10 @@ Below is an example of how you might structure the app:
 5. Add/Remove Blocked Numbers
    Use the UI to interact with the database.
 Notes
-Permissions: Starting with Android 10, call screening services have strict limitations. Ensure the app uses the required permissions and is set as the default call screening app.
-Database Management: Use Room or another database for scalability.
-UI: Design the app with user-friendly layouts and error handling.
-Testing: Test on various Android versions and devices.
+    1. Permissions: Starting with Android 10, call screening services have strict limitations. Ensure the app uses the required permissions and is set as the default call screening app.
+    2. Database Management: Use Room or another database for scalability.
+    3. UI: Design the app with user-friendly layouts and error handling.
+    4. Testing: Test on various Android versions and devices.
 ==========================================================================
 To run and test the spam call blocker app, you need to follow these steps:
 ===========================================================================

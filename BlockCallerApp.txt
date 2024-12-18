@@ -1,0 +1,22 @@
+
+Here’s a basic outline of an Android app that blocks spam calls and allows users to manually block sales calls. Android provides APIs to manage calls, though some restrictions are in place to protect user privacy.
+
+The app will require permissions for managing calls (READ_CALL_LOG, READ_PHONE_STATE, CALL_PHONE, and ANSWER_PHONE_CALLS), and it will integrate with a spam call database or a user-defined blocklist.
+
+READ_PHONE_STATE, READ_CALL_LOG, and ANSWER_PHONE_CALLS permissions are necessary to monitor and manage calls.
+These permissions must be declared in the AndroidManifest.xml.
+SharedPreferences:
+
+Used to maintain a persistent blocklist of phone numbers.
+BroadcastReceiver:
+
+Monitors incoming calls and checks against the blocklist.
+Manual Block/Unblock:
+
+Allows users to add or remove numbers from the blocklist.
+Call Blocking:
+
+The endCall() method is used to terminate unwanted calls (note: requires reflection and might be limited in later Android versions).
+Note:
+Restrictions: Starting from Android 10, some call-blocking features might be limited unless the app is set as the default dialer.
+UI Implementation: You can create a simple UI using RecyclerView to show the blocklist and allow adding/removing numbers.
